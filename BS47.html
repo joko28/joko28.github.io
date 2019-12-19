@@ -31,8 +31,75 @@
 <div align="center">
 <h1 style="font-family:courier;" class="text-info">Processing Self-Portrait</h1>
 	<p style="font-family:courier;" class="text-white">My most struggle with this assignment was figuring out what coordinate I needed to position each line, shape, and color.</p>
-			<img src="selfportrait.png" class="rounded" width="540" height="500" alt="selfportrait">
+			<img src="selfportrait.png" class="rounded" width="600" height="800" alt="selfportrait">
+	<p style="font-family:courier;" class="text-white">function setup() {
+createCanvas(600,600);
+}
 
+function draw() {
+background(51);
+
+//hair
+noStroke();
+fill(0);
+arc(308, 400, 450, 600, QUARTER_PI + HALF_PI, QUARTER_PI, OPEN);
+
+//head,neck,facestructure
+strokeWeight(0);//face
+fill(249, 231, 203);//headneckcolor
+ellipse(300,300,290,310);//head
+line(276,150,342,170);//neck
+rect(250,350,100,160);//neckapply
+fill(0);//faceapply
+rect(260,380,90,6);//mouth
+
+//bangs
+fill(0);
+arc(465, 155, 150, 285, HALF_PI, PI);//rightbang
+arc(155, 150, 120, 265, 0, HALF_PI);//leftbang
+
+//eyes
+strokeWeight(3);
+fill(700);//eyecolorlightblue
+ellipse(260,250,40,60);//lefteye
+fill(0, 126, 255, 102);//pupilcolorblack
+ellipse(255,255,25,40)
+fill(700);//eyecolorlightblue
+ellipse(360,250,40,60);//righteye
+fill(0, 126, 255, 102);//pupilcolorblack
+ellipse(355,255,25,40)
+
+//Shimmer
+fill(255);
+ellipse(260, 250, 6, 6);
+ellipse(360, 250, 6, 6);
+
+//eyelashes
+fill(0);
+arc(250, 218, 5, 9, HALF_PI, PI); //1left
+arc(255, 217, 5, 9, HALF_PI, PI); //2left
+arc(260, 216, 5, 9, HALF_PI, PI); //3left
+arc(265, 215, 5, 9, HALF_PI, PI); //4right
+arc(355, 215, 5, 9, 0, HALF_PI); //1right
+arc(360, 216, 5, 9, 0, HALF_PI); //2right
+arc(365, 217, 5, 9, 0, HALF_PI); //3right
+arc(370, 218, 5, 9, 0, HALF_PI); //4right
+
+//eyebrows
+
+//blush
+fill('#fae');//rightblush
+ellipse(200, 300, 60, 25);
+fill('#fae');//leftblush
+ellipse(395,300,60,25);
+
+//nose
+
+//shirt
+fill('rgb(100%,0%,10%)');
+square(150,500,300,60,60);//shirtshape
+
+}</p>
 	</div>
 	 
 	
