@@ -1,7 +1,7 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Minecraft</title>
+  <title>Bootstrap 4 Processing Self Portait</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -18,20 +18,10 @@
 	<li class="nav-item"><a class="nav-link text-info" href="BS41.html">Home</a>
 	<li class="nav-item"><a class="nav-link text-info" href="BS42.html">Glitch</a>
 	<li class="nav-item"><a class="nav-link text-info" href="BS43.html">Meme Mashup</a>
-	<li class="nav-item"><a class="nav-link text-info" href="BS44.html">Game(Minecraft)</a>
-	<li class="nav-item"><a class="nav-link text-info" href="BS45.html">3D Print</a>
+	<li class="nav-item"><a class="nav-link text-info" href="BS44.html">Minecraft</a>
+	<li class="nav-item"><a class="nav-link text-info" href="BS45.html">3D</a>
 	<li class="nav-item"><a class="nav-link text-info" href="BS46.html">Net.Art</a>
-	<li class="nav-item"><a class="nav-link text-info" href="BS47.html">Self Portrait</a>
-	<li class="nav-item"><a class="nav-link text-info" href="BS48.html">DIY Photoshop</a>
-	<li class="nav-item"><a class="nav-link text-info" href="BS49.html">Final Project</a>
 </li>
 </ul>
 </nav>
 
-<h1 style="font-family:courier;" class="text-info">My Survival Base</h1>
-  <p style="font-family:courier;" class="text-white">This is my survival base, this is only my basement room, to get away from all the monsters, but I also have created a fort above this basement that has two levels..</p>
-	<img src="survivalbase.png" class="rounded" width="640" height="400" alt="survivalbase">
-</div>
-
-</body>
-</html> 
